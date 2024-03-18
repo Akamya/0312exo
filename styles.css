@@ -97,17 +97,28 @@ fieldset {
     margin: auto; */
 }
 
+.conteneur {
+    width: 35em;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.inputtext {
+    width: 25em;
+}
+
+/* 
 .input-item {
-    display: inline;
-}
-
-.fckthis {
     text-align: center;
-}
+} */
 
-fieldset input {
+/* fieldset input {
     width: 50%;
-}
+} */
 
 textarea {
     width: 95%;
